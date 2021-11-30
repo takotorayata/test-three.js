@@ -49,7 +49,6 @@ function createListItem(uuid) {
 	const button = document.createElement('button');
 	button.setAttribute('data-uuid', uuid);
 	button.textContent = 'X';
-
 	button.addEventListener('click', deleteItem);
 
 	item.append(itemSpan);
